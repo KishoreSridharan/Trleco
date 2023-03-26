@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- boxicons.link -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- css link -->
+  <link rel="stylesheet" href="uploadstyle.css">
+  <title>Trleco file upload</title>
+</head>
+<body>
+                                   <!-- HEADER -->
+  <section class="header">
+    <a href="index.html" class="left">
+      Trleco.</h1>
+    </a>
+  </section>
+                                  <!-- HEADER -->
+                                  <!-- BODY -->
+  <section class="bodysection">
+    <div class="box">
+      <div class="name">
+        <h1>File Upload</h1>
+      </div>
+      <div class="content">
+        <div class="browsefile">
+          <i class='bx bx-cloud-upload'></i>
+          <p>Drop your files Or <br> <span>Browse Files</span> </p>
+        </div>
+
+        <div class="upload">
+          <p>You can choose to upload more than one file at a time. Make sure each file size does not exceed 5 MB</p>
+          <input type="text" placeholder="Add Comments">
+          <div class="upload_cancel">
+            <button id="upload_btn">Upload</button>
+            <button id="cancel_btn">cancel</button>
+          </div>
+          <div class="line"></div>
+          <P id="recent">Recent Uploads</P>
+          <div class="filenames">
+            <p><i class='bx bxs-check-circle'></i>&ensp;<span id="name">File00567CGD.pdf</span>&emsp;&emsp;<span>334kb</span></p>
+            <p><i class='bx bxs-check-circle'></i>&ensp;<span id="name">File005545HD.pdf</span>&emsp;&emsp;<span>500kb</span></p>
+          </div>
+        </div>
+        
+        <div class="generate">
+          <div class="generate_symbols">
+            <p>External Drives</p>
+            <div class="symbols">
+              <i class='bx bxs-cloud'></i>
+              <i class="fab fa-google-drive"></i>
+              <i class='bx bxl-dropbox'></i>
+            </div>
+          </div>
+          <div class="generate_btn">
+            <p>Once file is uploaded <br>Check generate <br>to visualise the data</p>
+            <button>Generate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>   
+                                              <!-- BODY -->                             
+</body>
+</html>
